@@ -24,15 +24,16 @@
     background-color: green;
     border-style: solid;
     border-color: black;
-    padding: 15px;
-    width: 300px;
+    padding: 10px;
+    min-width: 250px;
     
 }
 
 .inside1 {
     border-style: solid;
     border-color: black;
-    padding: 50pxpx;
+    min-height: 250px;
+    margin: 10px;
 }
 
 
