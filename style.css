@@ -1,0 +1,57 @@
+
+
+.box1 {
+    padding: 20px;
+    margin: 0 auto;
+    background-color: red;
+    border-style: solid;
+    border-color: black;
+    color: white;
+    padding-bottom: 20px;
+    max-width: fit-content;
+}
+
+.box1 > h1 {
+    margin: 0;
+}
+
+
+.card{
+    
+}
+.card1 {
+    display:inline-block;
+    background-color: green;
+    border-style: solid;
+    border-color: black;
+    padding: 15px;
+    width: 300px;
+    
+}
+
+.inside1 {
+    border-style: solid;
+    border-color: black;
+    padding: 50pxpx;
+}
+
+
+
+.card2 {
+    display: inline-block;
+    background-color: green;
+    border-style: solid;
+    border-color: black;
+    width: 300px;
+}
+
+.inside2 {
+
+}
+.card3{
+    display: inline-block;
+    background-color: green;
+    border-style: solid;
+    border-color: black;
+    width: 300px;
+}
