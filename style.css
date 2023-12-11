@@ -16,7 +16,8 @@
 }
 
 
-.card{
+.card1 > h1{
+    margin:0;
     
 }
 .card1 {
@@ -24,30 +25,39 @@
     background-color: green;
     border-style: solid;
     border-color: black;
-    padding: 10px;
-    min-width: 250px;
+    padding: 5px;
+    min-width: 300px;
     
 }
 
 .inside1 {
     border-style: solid;
     border-color: black;
-    min-height: 250px;
-    margin: 10px;
+    min-height: 150px;
+    padding-top: 20px;
+    padding-left: 15px;
+
 }
 
 
 
+.card2 > h1{
+    margin: 0;
+}
 .card2 {
-    display: inline-block;
+    display:inline-block;
     background-color: green;
     border-style: solid;
     border-color: black;
-    width: 300px;
+    padding: 5px;
+    min-width: 300px;
 }
 
 .inside2 {
-
+    border-style: solid;
+    border-color: black;
+    min-height: 150px;
+    padding-left: 50px;
 }
 .card3{
     display: inline-block;
