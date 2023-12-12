@@ -4,7 +4,6 @@
 }
 
 h2 {
-    margin: 0px;
 }
 .box1{
     padding: 20px;
@@ -15,31 +14,53 @@ h2 {
     color: white;
     padding-bottom: 20px;
     max-width: fit-content;
+    border: 2px solid black;
 }
 
 .cards {
     border: 3px solid black;
     display: block;
-    min-width: fit-content;
     margin: 30px;
+    border: 3px solid black;
 }
 
 .card {
-    display: inline-block;
     border: 3px solid black;
+    padding: 5px;
+    display: inline-block;
     vertical-align: top ;
-    min-width: 300px;
+    min-width: 250px;
     margin: 15px;
+    background-color: green;
 }
 
 .insidecard {
+    padding: 8px;
     min-height: 300px;
+    border: 3px solid black;
 }
 
 .inside3 {
+    margin: 3px;
     border: 3px solid black;
     display: inline-block;
     width: 150px;
 
 
+}
+
+.list-two {
+    min-height: 90px;
+}
+
+.list-three {
+    min-height: fit-content;
+}
+
+.list-three > p{
+    margin: 0px;
+}
+
+p{
+    font-size: 20px;
 }
