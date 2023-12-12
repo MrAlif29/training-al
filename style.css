@@ -1,6 +1,12 @@
 
+*{
+    box-sizing: border-box;
+}
 
-.box1 {
+h2 {
+    margin: 0px;
+}
+.box1{
     padding: 20px;
     margin: 0 auto;
     background-color: red;
@@ -11,58 +17,29 @@
     max-width: fit-content;
 }
 
-.box1 > h1 {
-    margin: 0;
+.cards {
+    border: 3px solid black;
+    display: block;
+    min-width: fit-content;
+    margin: 30px;
 }
 
-
-.card1 > h1{
-    margin:0;
-    
-}
-.card1 {
-    display:inline-block;
-    background-color: green;
-    border-style: solid;
-    border-color: black;
-    padding: 5px;
-    min-width: 300px;
-    
-}
-
-.inside1 {
-    border-style: solid;
-    border-color: black;
-    min-height: 150px;
-    padding-top: 20px;
-    padding-left: 15px;
-
-}
-
-
-
-.card2 > h1{
-    margin: 0;
-}
-.card2 {
-    display:inline-block;
-    background-color: green;
-    border-style: solid;
-    border-color: black;
-    padding: 5px;
-    min-width: 300px;
-}
-
-.inside2 {
-    border-style: solid;
-    border-color: black;
-    min-height: 150px;
-    padding-left: 50px;
-}
-.card3{
+.card {
     display: inline-block;
-    background-color: green;
-    border-style: solid;
-    border-color: black;
-    width: 300px;
+    border: 3px solid black;
+    vertical-align: top ;
+    min-width: 300px;
+    margin: 15px;
+}
+
+.insidecard {
+    min-height: 300px;
+}
+
+.inside3 {
+    border: 3px solid black;
+    display: inline-block;
+    width: 150px;
+
+
 }
